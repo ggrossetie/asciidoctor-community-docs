@@ -1,0 +1,105 @@
+= Documentation Guidelines
+:url-antora-content-files: https://docs.antora.org/antora/latest/organize-content-files/
+
+This document has two purposes:
+
+1. To describe the Asciidoctor project's documentation requirements and objectives
+2. To map the workflow tasks and automation routes needed to create and maintain the documentation.
+
+== Audiences
+
+The Asciidoctor project serves a wide variety of end users.
+
+To help new and experienced users, at a minimum, the project needs to provide:
+
+* Install and use quick start (Core)
+* Writing quick start (Docs)
+* User manual (All)
+* Technical manual (All)
+* Contributor manual (Docs and Core)
+* Syntax and Code Dictionary (All)
+* README (All)
+
+== What does each repository need to provide?
+
+. /docs folder
+. README
+. Documentation organized as {url-antora-content-files}[content files] for Antora
+.. Reference documentation that contains definitions and working usage examples of all attributes, options, styles, configurations
+.. Quick start which contains requirements, installation, configuration, and basic usage instructions with examples
+.. API reference documentation
+.. Changelogs
+. Branch solely for updating the documentation
+
+NOTE: Code examples are to be pulled directly from the source code or test suite
+
+*Overview*
+
+* Each project repository in the Asciidoctor organization will have its own documentation, which will be organized as content files for Antora.
+* Code snippets and examples should be linked and automatically extracted from the source code or test cases to ensure accuracy.
+* The code must be tested.
+* The Asciidoctor organization Docs repository will build each projects' documentation for publication on the Asciidoctor project.
+
+== Quick Start Templates
+
+Contains requirements, installation, configuration, and basic usage instructions with examples
+
+=== Install and Use Quick Start
+
+Basic instructions showing how to install, run, and produce default output
+
+*Audience*
+
+For users with technical experience and knowledge of previous Asciidoctor versions and the AsciiDoc syntax
+
+=== Writing Quick Start
+
+Definitions and examples of the most commonly used syntax
+
+*Audience*
+
+All users
+
+== Technical Manual
+
+A complete reference manual defining the source code and how it operates.
+
+*Audience*
+
+Developers, testers, and experienced users
+
+*Writing style*
+
+Concise but conversational
+
+.Technical Manual Template
+----
+Pending
+----
+
+== Contributor Manual Template
+
+*Audience*
+
+All levels of users and developers
+
+*Writing style*
+
+Conversational
+
+.Contributor Manual Template
+----
+Pending
+----
+
+== Syntax and Code Dictionary
+
+List of all syntax and commands
+
+*Audience*
+
+Users and developers
+
+*Writing style*
+
+Extremely concise
